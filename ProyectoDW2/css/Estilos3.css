@@ -1,0 +1,57 @@
+body{
+font-family: "calibri light";
+}
+.contenedor{
+background: tomato;
+widht: 80%;
+margin: auto;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+} 
+header{
+height:400px;
+background-image: url ('portada.jpg');
+background-position: center;
+background-size: cover;
+}
+
+main{
+background: white;
+padding: 20px 30px;
+}
+
+main .foto{
+width: 150px;
+height: 100px;
+background-color: teal;
+border-radius: 50%;
+margin:-90px 0 20px 0;
+border: 6px solid #ffffff;
+}
+
+main .foto img{
+width:100%;
+border-radius:50%;
+}
+
+footer{
+background:teal ;
+text-align: center;
+padding: 25px;
+color: #ffffff;
+}
